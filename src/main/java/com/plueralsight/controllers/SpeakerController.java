@@ -1,6 +1,6 @@
 package com.plueralsight.controllers;
 
-import com.plueralsight.model.Session;
+
 import com.plueralsight.model.Speaker;
 import com.plueralsight.repository.SpeakerRepository;
 import org.springframework.beans.BeanUtils;
@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("/v1/api/speakers")
+@RequestMapping("/api/v1/speakers")
 public class SpeakerController {
 
     @Autowired
